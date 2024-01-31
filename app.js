@@ -1,6 +1,8 @@
 const express = require("express");
  
 const app = express();
+
+app.set('views', './testServer/views')
  
 app.set("view engine", "hbs");
  
